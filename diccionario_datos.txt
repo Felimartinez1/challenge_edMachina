@@ -1,0 +1,24 @@
+user_uuid: Índice de usuario de la plataforma
+course_uuid: Índice de curso
+legajo: Legajo administratiivo del alumno
+particion: Partición temporal del 1 a 60 que serían los días de cursado
+periodo: Semestre más año de cursado (por ejemplo 1-2023 equivale al primer Semestre del año y 2-2023 equivale al segundo)
+nota_final_materia: Última nota del exámen final
+nota_parcial: Nota del exámen parcial
+nombre_examen: Tipo de exámen rendido
+course_name: Nombre del curso
+fecha_mesa_epoch: Fecha de mesa de exámen en formato epoch
+assignment_id: Id de tarea
+ass_name: Nombre de la tarea
+ass_created_at: Fecha de creación de la tarea
+ass_due_at: Fecha de vencimiento de la tarea
+ass_unlock_at: Fecha de apertura de la tarea
+ass_lock_at: Fecha de cierre de tarea
+points_possible: Puntos posibles por tarea
+ass_name_sub: Nombre de la entrega
+sub_uuid: Id de entrega de tarea
+score: Puntaje de la entrega
+submission_type: Tipo o formato de tarea entregada
+s_submitted_at: Fecha de entrega
+s_graded_at: Fecha de corrección
+s_created_at: Fecha de creacion de la entrega
