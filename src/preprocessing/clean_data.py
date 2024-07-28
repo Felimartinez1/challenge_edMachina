@@ -1,8 +1,7 @@
 import pandas as pd
 
-def from_epoch_to_datetime(data_path):
-    
-    df = pd.read_csv(data_path)
+
+def from_epoch_to_datetime(df):
     # Convertir las columnas de epoch a un formato de fecha legible
     df['fecha_mesa'] = pd.to_datetime(df['fecha_mesa_epoch'], unit='s')
     df.drop(columns='fecha_mesa_epoch', inplace=True)
@@ -15,9 +14,11 @@ def from_epoch_to_datetime(data_path):
     df['ass_lock_at'] = pd.to_datetime(df['ass_lock_at'], unit='s')
     return df
 
-def unify_values(data_path):
-    
-    df = pd.read_csv(data_path)
+def unify_values(df):
     # Unificar los valores que significan lo mismo
     df['periodo'] = df['periodo'].replace('01-2022', '1-2022')
     return df
+
+def rename_columns(df):
+    pass
+
