@@ -22,3 +22,6 @@ submission_type: Tipo o formato de tarea entregada
 s_submitted_at: Fecha de entrega
 s_graded_at: Fecha de corrección
 s_created_at: Fecha de creacion de la entrega
+
+color graficos power bi: #11CB00
+color titulos power bi: #0D9B00
