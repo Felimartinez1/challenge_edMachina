@@ -15,34 +15,34 @@ cuáles y porqué.
 
 ### **Objetivos del Desafío:**
 1. Análisis Exploratorio de Datos (EDA):
-○ Analistas de Datos: Realizar un análisis descriptivo para identificar
+- Analistas de Datos: Realizar un análisis descriptivo para identificar
 tendencias y patrones en el rendimiento académico, y presentar los hallazgos
 en un tablero interactivo de Power BI.
-○ Data Scientists: Además del EDA básico, aplicar técnicas estadísticas
+- Data Scientists: Además del EDA básico, aplicar técnicas estadísticas
 avanzadas para inferir relaciones y significancia.
 ○ ML Engineers: Colaborar en la preparación de los datos y asegurar que
 están listos para el modelado, además de realizar un EDA básico.
 2. Ingeniería de Características:
-○ Analistas de Datos: Sugerir posibles características basadas en el análisis
+- Analistas de Datos: Sugerir posibles características basadas en el análisis
 descriptivo.
-○ Data Scientists: Crear nuevas características a partir de los datos existentes
+- Data Scientists: Crear nuevas características a partir de los datos existentes
 y evaluar su impacto en modelos predictivos.
-○ ML Engineers: Optimizar la creación y transformación de características
+- ML Engineers: Optimizar la creación y transformación de características
 para asegurar eficiencia en el entrenamiento de modelos.
 3. Modelado Predictivo:
-○ Analistas de Datos: No se espera que desarrollen un modelo predictivo; su
+- Analistas de Datos: No se espera que desarrollen un modelo predictivo; su
 enfoque está en la visualización de datos.
-○ Data Scientists: Desarrollar y comparar múltiples modelos predictivos
+- Data Scientists: Desarrollar y comparar múltiples modelos predictivos
 (regresión, árboles de decisión, etc.) y optimizarlos usando técnicas
 avanzadas.
-○ ML Engineers: Implementar y escalar modelos complejos, optimizar el
+- ML Engineers: Implementar y escalar modelos complejos, optimizar el
 rendimiento y realizar validación cruzada.
 4. Implementación y Escalabilidad:
-○ Analistas de Datos: Crear un tablero de Power BI interactivo que muestre
+- Analistas de Datos: Crear un tablero de Power BI interactivo que muestre
 los hallazgos del análisis descriptivo y permita la exploración de los datos.
-○ Data Scientists: Presentar un modelo final con métricas de rendimiento y
+- Data Scientists: Presentar un modelo final con métricas de rendimiento y
 justificar la elección del modelo.
-○ ML Engineers: Desarrollar una solución escalable para la implementación
+- ML Engineers: Desarrollar una solución escalable para la implementación
 del modelo en un entorno de producción, asegurando eficiencia y robustez. 
 Uso de buenas practicas
 
