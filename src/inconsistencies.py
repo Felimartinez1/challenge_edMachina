@@ -20,15 +20,11 @@ def clean_course_inconsistencies(df):
     return replace_with_most_frequent(df, 'course_name', 'course_uuid')
 
 def clean_user_inconsistencies(df):
-    # Verificar si hay user_uuid con más de un legajo asociado
     user_legajo_counts = df.groupby('user_uuid')['legajo'].nunique()
     problematic_user_uuids = user_legajo_counts[user_legajo_counts > 1].index
-
-    # Corregir el problema seleccionando el legajo más frecuente para estos user_uuid problemáticos
     for user_uuid in problematic_user_uuids:
         most_frequent_legajo = df[df['user_uuid'] == user_uuid]['legajo'].value_counts().index[0]
         df.loc[df['user_uuid'] == user_uuid, 'legajo'] = most_frequent_legajo
-
     return df
 
 def clean_assignment_inconsistencies(df):
